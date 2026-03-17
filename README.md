@@ -1,10 +1,10 @@
-# 📈 Microsoft Stock Price Predictor
+# Microsoft Stock Price Predictor
 
 A machine learning project that predicts Microsoft (MSFT) stock closing prices using an **LSTM (Long Short-Term Memory)** neural network, with an interactive **Streamlit** web app and a **Power BI** dashboard for visual analysis.
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 MicroSoft-Stock-Analysis/
@@ -22,18 +22,18 @@ MicroSoft-Stock-Analysis/
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📊 **Exploratory Data Analysis** of historical MSFT stock prices
-- 🤖 **LSTM model** trained to predict closing prices
-- 📅 **Date-based prediction** — input any date (past or future)
-- 🔄 **Auto-handles** weekends & holidays by snapping to nearest trading day
-- 📈 **Power BI dashboard** for interactive stock trend visualization
-- 🌐 **Streamlit app** for a user-friendly prediction interface
+-  **Exploratory Data Analysis** of historical MSFT stock prices
+-  **LSTM model** trained to predict closing prices
+-  **Date-based prediction** — input any date (past or future)
+-  **Auto-handles** weekends & holidays by snapping to nearest trading day
+-  **Power BI dashboard** for interactive stock trend visualization
+-  **Streamlit app** for a user-friendly prediction interface
 
 ---
 
-## 🧠 How the Model Works
+##  How the Model Works
 
 1. Takes the last **60 days** of closing prices as input
 2. Scales the data using a pre-fitted `MinMaxScaler`
@@ -44,7 +44,7 @@ MicroSoft-Stock-Analysis/
 
 ---
 
-## 🖥️ Streamlit App
+##  Streamlit App
 
 The app allows users to:
 - Select any date using a date picker
@@ -60,7 +60,7 @@ Difference:      $15.49  (3.80%)
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the repository
 
@@ -83,7 +83,7 @@ streamlit run app.py
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -99,7 +99,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 - **Source:** Yahoo Finance via `yfinance`
 - **Ticker:** `MSFT` (Microsoft Corporation)
@@ -107,7 +107,7 @@ streamlit run app.py
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Akhil Ullas**
 - GitHub: [@Akhil-Ullas](https://github.com/Akhil-Ullas)
